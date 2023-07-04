@@ -29,7 +29,9 @@
   "homepage": "https://github.com/jacoberdman2147/react-chess#readme",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.2",
+    "vite-tsconfig-paths": "^4.2.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.17",

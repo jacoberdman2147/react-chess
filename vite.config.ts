@@ -1,8 +1,9 @@
-import {defineConfig} from 'vite'
-import react from '@vitejs/plugin-react'
+import {defineConfig} from 'vite';
+import tsconfigPaths from 'vite-tsconfig-paths';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), tsconfigPaths()],
   build: {
     manifest: true,
     rollupOptions: {
@@ -14,4 +15,4 @@ export default defineConfig({
     port: 8081,
     strictPort: true,
   }
-})
+});
