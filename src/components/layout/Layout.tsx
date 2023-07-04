@@ -26,6 +26,7 @@ const Layout = styled(({children, className}: LayoutProps) => (
 
   .layout-content {
     flex-grow: 1;
+    padding: 1.5rem;
   }
 `;
 
